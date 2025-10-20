@@ -1,0 +1,142 @@
+/**
+ * Public Styles
+ *
+ * @package SignByAuthAPI
+ * @since 1.0.0
+ */
+
+.sign-dashboard {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.sign-dashboard-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+}
+
+.sign-dashboard-header h1 {
+    font-size: 32px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.sign-dashboard-header p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+.sign-dashboard-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.sign-pending-notice,
+.sign-completed-notice {
+    margin-bottom: 30px;
+}
+
+.sign-pending-notice h2,
+.sign-completed-notice h2 {
+    font-size: 24px;
+    margin: 0 0 15px;
+    color: #007bff;
+}
+
+.sign-pending-notice p,
+.sign-completed-notice p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin: 0 0 10px;
+}
+
+.sign-actions {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sign-button {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sign-button:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+.sign-button-primary {
+    background: #007bff;
+}
+
+.sign-button-primary:hover {
+    background: #0056b3;
+}
+
+.sign-downloads {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+
+.sign-downloads h3 {
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.sign-downloads p {
+    margin: 10px 0;
+}
+
+.sign-dashboard-error {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.sign-dashboard-error p {
+    font-size: 18px;
+    color: #dc3545;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .sign-dashboard {
+        margin: 20px auto;
+    }
+
+    .sign-dashboard-content {
+        padding: 20px;
+    }
+
+    .sign-dashboard-header h1 {
+        font-size: 24px;
+    }
+
+    .sign-pending-notice h2,
+    .sign-completed-notice h2 {
+        font-size: 20px;
+    }
+}

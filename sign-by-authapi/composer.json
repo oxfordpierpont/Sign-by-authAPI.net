@@ -1,0 +1,34 @@
+{
+    "name": "authapi/sign-by-authapi",
+    "description": "WordPress plugin for automating contract signing workflows with LibreSign integration",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "authAPI.net",
+            "email": "info@authapi.net"
+        },
+        {
+            "name": "Oxford Pierpont"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "mpdf/mpdf": "^8.1",
+        "setasign/fpdi": "^2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SignByAuthAPI\\": "includes/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

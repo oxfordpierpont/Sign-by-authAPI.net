@@ -1,0 +1,162 @@
+/**
+ * Admin Styles
+ *
+ * @package SignByAuthAPI
+ * @since 1.0.0
+ */
+
+.sign-admin-page {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.sign-admin-header {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.sign-admin-header h1 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.sign-admin-section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.sign-admin-section h2 {
+    margin-top: 0;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.sign-form-table {
+    width: 100%;
+    max-width: 800px;
+}
+
+.sign-form-table th {
+    width: 200px;
+    text-align: left;
+    padding: 15px 10px 15px 0;
+    vertical-align: top;
+}
+
+.sign-form-table td {
+    padding: 15px 10px;
+}
+
+.sign-color-picker {
+    max-width: 100px;
+}
+
+.sign-document-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sign-document-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-document-info h4 {
+    margin: 0 0 5px;
+}
+
+.sign-document-actions a {
+    margin-left: 10px;
+}
+
+.sign-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sign-stat-box {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    text-align: center;
+}
+
+.sign-stat-box .stat-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sign-stat-box .stat-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.sign-activity-log {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.sign-activity-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.sign-activity-item:last-child {
+    border-bottom: none;
+}
+
+.sign-activity-time {
+    font-size: 12px;
+    color: #999;
+}
+
+.sign-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-button:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+.sign-button-secondary {
+    background: #6c757d;
+}
+
+.sign-button-secondary:hover {
+    background: #545b62;
+}
+
+.sign-button-danger {
+    background: #dc3545;
+}
+
+.sign-button-danger:hover {
+    background: #c82333;
+}

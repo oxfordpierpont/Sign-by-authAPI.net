@@ -1,0 +1,37 @@
+# WordPress
+.htaccess
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Composer
+composer.lock
+
+# npm
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build files
+/dist/
+/build/
+
+# Temp files
+*.tmp
+*.temp
+*.log
+
+# Plugin specific
+/uploads/
+/sign-temp/
+/signed-docs/
